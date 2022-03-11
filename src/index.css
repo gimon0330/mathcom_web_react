@@ -1,0 +1,304 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix") format("embedded-opentype"), url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff") format("woff"), url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf") format("truetype");
+}
+
+h1 {
+  color: black;
+  font-family: "NanumSquare";
+  font-size: 35px;
+  font-weight: 800;
+}
+
+h2 {
+  color: black;
+  font-family: "NanumSquare";
+  font-size: 27px;
+  font-weight: 600;
+}
+
+h3 {
+  color: black;
+  font-family: "NanumSquare";
+  font-size: 24px;
+  font-weight: 200;
+}
+
+h4 {
+  font-family: "NanumSquare";
+  color: black;
+  font-size: 20px;
+  font-weight: 160;
+}
+
+h5 {
+  font-family: "NanumSquare";
+  color: black;
+  font-size: 16px;
+  font-weight: 120;
+}
+
+h6 {
+  font-family: "NanumSquare";
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 13pt;
+  font-family: "NanumBarunGothic";
+}
+
+.no-drag {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.Title-section-bg {
+  height: 500px;
+}
+
+.Title-gradient {
+  background-image: linear-gradient(120deg, #36454f 0%, #252767 100%);
+}
+
+.ct {
+  margin-bottom: 100px;
+}
+
+.Title-title {
+  font-size: 90px;
+  font-weight: 800;
+  color: white;
+  font-family: "NanumSquare";
+  padding-top: 150px;
+  text-shadow: 40px;
+}
+
+.Title-subtitle {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  font-family: "NanumSquare";
+}
+
+.btn-main_btn {
+  font-size: 40px;
+  font-family:"NanumSquare"; 
+  font-weight:800; 
+  margin-bottom:30px;
+  margin-top:30px;
+  color: #36454f;
+}
+
+.btn-main_btn:hover,
+.btn-main_btn.hover,
+.btn-main_btn:focus,
+.btn-main_btn.focus,
+.btn-main_btn:active,
+.btn-main_btn.active {
+  color: darkgrey !important;
+}
+
+.btn-main_btn:active {
+  box-shadow: none !important;
+}
+
+.btn-main_btn:active:focus {
+  color: #ffffff !important;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+}
+
+.btn-look_btn {
+  color: #ffffff;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+  margin-right: 10px;
+}
+
+.btn-look_btn:hover,
+.btn-look_btn.hover,
+.btn-look_btn:focus,
+.btn-look_btn.focus,
+.btn-look_btn:active,
+.btn-look_btn.active {
+  color: #ffffff !important;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+}
+
+.btn-look_btn:active {
+  box-shadow: none !important;
+}
+
+.btn-look_btn:active:focus {
+  color: #ffffff !important;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+}
+
+.btn-github_btn {
+  color: lightskyblue;
+  background-color: white !important;
+  border-color: lightskyblue !important;
+  margin-right: 10px;
+}
+
+.btn-github_btn:hover,
+.btn-github_btn.hover,
+.btn-github_btn:focus,
+.btn-github_btn.focus,
+.btn-github_btn:active,
+.btn-github_btn.active {
+  color: white !important;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+}
+
+.btn-github_btn:active {
+  box-shadow: none !important;
+}
+
+.btn-github_btn:active:focus {
+  color: #ffffff !important;
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+}
+
+.btn-insta_btn {
+    color: deeppink;
+    background-color: white !important;
+    border-color: deeppink !important;
+    margin-right: 10px;
+  }
+  
+  .btn-insta_btn:hover,
+  .btn-insta_btn.hover,
+  .btn-insta_btn:focus,
+  .btn-insta_btn.focus,
+  .btn-insta_btn:active,
+  .btn-insta_btn.active {
+    color: white !important;
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+  }
+  
+  .btn-insta_btn:active {
+    box-shadow: none !important;
+  }
+  
+  .btn-insta_btn:active:focus {
+    color: #ffffff !important;
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+  }
+
+.project-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card-title {
+  font-family: "NanumSquare";
+  font-weight: 1000;
+  font-size: 18pt;
+}
+
+.project-card-dsec {
+  font-family: "NanumBarunGothic";
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card-btn {
+  font-family: "NanumSquare";
+}
+
+.project-card-link {
+  font-family: "NanumSquare";
+  margin-top: 5px;
+}
+
+.Members-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+  border: none;
+}
+
+.Members-card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Members-card-title {
+  font-family: "NanumSquare";
+  font-weight: 800;
+  font-size: 18pt;
+}
+
+.Members-card-sub {
+  font-family: "NanumBarunGothic";
+  font-weight: bold;
+}
+
+.Members-card-desc {
+  font-family: "NanumBarunGothic";
+  font-size: 12pt;
+}
+
+.Header {
+  font-weight: 1000;
+  color: #555555;
+  font-size: 26pt;
+  font-family: "NanumSquare";
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Footer {
+  background-image: linear-gradient(120deg, #36454f 0%, #252767 100%);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.Footer h4 {
+  font-family: "NanumSquare";
+  font-weight: 1000;
+  color: lightcyan;
+}
+.Footer h5 {
+  color: whitesmoke;
+  font-family: "NanumBarunGothic";
+  font-weight: 600;
+  font-size: 13pt;
+}
+.Footer p {
+  font-family: "NanumSquare";
+  font-weight: 800;
+  color: lightcyan;
+}
+.Footer a {
+  color: lightcyan;
+  font-family: "NanumBarunGothic";
+  text-decoration: underline;
+}
+
+.Footer-copyright {
+  color: whitesmoke;
+  font-family: "NanumBarunGothic";
+  font-size: 10pt;
+}
